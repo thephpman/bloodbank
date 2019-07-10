@@ -26,7 +26,7 @@ define("ADMIN_URL", BASE_URL . "admin" . "/");
 try {
 	$pdo = new PDO("mysql:host={$dbhost};dbname={$dbname}", $dbuser, $dbpass);
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "db connected"; // IF everything ok then this msg will show ! 
+  // echo "db connected"; // IF everything ok then this msg will show ! 
 }
 catch( PDOException $exception ) {
 	echo "Connection error :" . $exception->getMessage();
