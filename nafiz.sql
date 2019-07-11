@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2019 at 12:33 PM
+-- Generation Time: Jul 11, 2019 at 06:34 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.1.30
 
@@ -253,7 +253,7 @@ CREATE TABLE `tbl_menu` (
 --
 
 INSERT INTO `tbl_menu` (`menu_id`, `menu_type`, `menu_name`, `category_or_page_slug`, `menu_order`, `menu_parent`, `menu_url`) VALUES
-(17, 'Other', 'Home', '', 1, 0, 'http://localhost/bloodbank/'),
+(17, 'Other', 'Home', '', 1, 0, 'http://localhost/blookbankfornafiz/bloodbank/'),
 (35, 'Page', 'Blog', 'blog', 6, 0, ''),
 (36, 'Page', 'Contact Us', 'contact-us', 7, 0, ''),
 (39, 'Page', 'Pricing', 'pricing', 4, 0, ''),
@@ -466,7 +466,7 @@ CREATE TABLE `tbl_settings` (
 --
 
 INSERT INTO `tbl_settings` (`id`, `logo`, `favicon`, `footer_about`, `footer_copyright`, `contact_address`, `contact_email`, `contact_phone`, `contact_fax`, `contact_map_iframe`, `receive_email`, `receive_email_subject`, `receive_email_thank_you_message`, `donor_email_subject`, `donor_email_thank_you_message`, `forget_password_message`, `total_recent_news_footer`, `total_popular_news_footer`, `total_recent_news_sidebar`, `total_popular_news_sidebar`, `total_recent_news_home_page`, `meta_title_home`, `meta_keyword_home`, `meta_description_home`, `banner_login`, `banner_registration`, `banner_forget_password`, `banner_blog`, `banner_donor`, `banner_agent`, `banner_search`, `search_title`, `search_photo`, `testimonial_photo`, `newsletter_text`, `mod_rewrite`, `paypal_email`) VALUES
-(1, 'logo.png', 'favicon.png', '<p>Lorem ipsum dolor sit amet, omnis signiferumque in mei, mei ex enim concludaturque. Senserit salutandi euripidis no per, modus maiestatis scribentur est an.&nbsp;Ea suas pertinax has, solet officiis pericula cu pro, possit inermis qui ad. An mea tale perfecto sententiae, eos inani epicuri concludaturque ex.</p>\r\n', 'Copyright Â© 2017. All Rights Reserved.', 'ABC Steet, somewhere.', 'abcd@yourwebsite.com', '123-456-7878', '123-456-7890', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84040262736!2d-74.25819605476612!3d40.70583158628177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1485712851643\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', 'jbbr.1990@gmail.com', 'Visitor Email Message', 'Thank you for sending email. We will contact you shortly.', 'BloodBank Website - Message from Visitor', 'Your message is successfully sent to the donor.', 'A confirmation link is sent to your email address. You will get the password reset information in there.', 3, 3, 4, 4, 7, 'BloodBank - Blood Bank and Donor Management CMS', 'blood, blood bank, blood donor, hospital, directory, blood bank directory, donor directory, patient, blood management, blood group, blood group listing, blood listing, donor listing', 'BloodBank - Blood Bank and Donor Management CMS', 'banner_login.jpg', 'banner_registration.jpg', 'banner_forget_password.jpg', 'banner_blog.jpg', 'banner_donor.jpg', 'banner_agent.jpg', 'banner_search.jpg', 'Search a Donor in your Area', 'search.jpg', 'testimonial.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit expedita, iure ullam cum vero ex sint aperiam maxime.', 'Off', 'biz111@shop.com');
+(1, 'logo.png', 'favicon.png', '<p>Lorem ipsum dolor sit amet, omnis signiferumque in mei, mei ex enim concludaturque. Senserit salutandi euripidis no per, modus maiestatis scribentur est an.&nbsp;Ea suas pertinax has, solet officiis pericula cu pro, possit inermis qui ad. An mea tale perfecto sententiae, eos inani epicuri concludaturque ex.</p>\r\n', 'Copyright Â© 2019 to Nafiz. All Rights Reserved.', 'ABC Steet, somewhere.', 'abcd@yourwebsite.com', '123-456-7878', '123-456-7890', '<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84040262736!2d-74.25819605476612!3d40.70583158628177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1485712851643\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>', 'jbbr.1990@gmail.com', 'Visitor Email Message', 'Thank you for sending email. We will contact you shortly.', 'BloodBank Website - Message from Visitor', 'Your message is successfully sent to the donor.', 'A confirmation link is sent to your email address. You will get the password reset information in there.', 3, 3, 4, 4, 7, 'BloodBank - Blood Bank and Donor Management CMS', 'blood, blood bank, blood donor, hospital, directory, blood bank directory, donor directory, patient, blood management, blood group, blood group listing, blood listing, donor listing', 'BloodBank - Blood Bank and Donor Management CMS', 'banner_login.jpg', 'banner_registration.jpg', 'banner_forget_password.jpg', 'banner_blog.jpg', 'banner_donor.jpg', 'banner_agent.jpg', 'banner_search.jpg', 'Search a Donor in your Area', 'search.jpg', 'testimonial.jpg', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid fugit expedita, iure ullam cum vero ex sint aperiam maxime.', 'Off', 'something@something.com');
 
 -- --------------------------------------------------------
 

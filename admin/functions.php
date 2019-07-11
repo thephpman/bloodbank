@@ -37,3 +37,16 @@ function ext_check($pdo,$allowed_ext,$my_ext)
 	else
 		return false; // file extension not match
 }
+
+
+function get_ai_id($pdo,$tbl_name)
+{
+	$statement = $pdo->prepare("SHOW TABLE STATUS LIKE '$tbl_name'");
+	$statement->execute();
+	$result = $statement->fetchAll(PDO::FETCH_ASSOC);
+	foreach($result as $row)
+	{
+		$next_id = $row['Auto_increment'];
+	}
+	return $next_id;
+}

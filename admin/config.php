@@ -18,7 +18,7 @@ $dbuser = 'root';
 $dbpass = '';
 
 // Defining base url
-define("BASE_URL", "http://localhost/bloodbank/");
+define("BASE_URL", "http://localhost/blookbankfornafiz/bloodbank/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
@@ -26,7 +26,7 @@ define("ADMIN_URL", BASE_URL . "admin" . "/");
 try {
 	$pdo = new PDO("mysql:host={$dbhost};dbname={$dbname}", $dbuser, $dbpass);
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  // echo "db connected"; // IF everything ok then this msg will show ! 
+  // echo "db connected"; // IF everything ok then this msg will show !
 }
 catch( PDOException $exception ) {
 	echo "Connection error :" . $exception->getMessage();
