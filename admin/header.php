@@ -174,7 +174,7 @@ if($_SESSION['user']['role']=='Admin') {
 					</li>
 
 
-					<li class="treeview <?php if( ($cur_page == 'category-add.php')||($cur_page == 'category.php')||($cur_page == 'category-edit.php') || ($cur_page == 'news-add.php')||($cur_page == 'news.php')||($cur_page == 'news-edit.php') || ($cur_page == 'comment.php') ) {echo 'active';} ?>">
+					<!-- <li class="treeview <?php// if( ($cur_page == 'category-add.php')||($cur_page == 'category.php')||($cur_page == 'category-edit.php') || ($cur_page == 'news-add.php')||($cur_page == 'news.php')||($cur_page == 'news-edit.php') || ($cur_page == 'comment.php') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-hand-o-right"></i>
 							<span>News Section</span>
@@ -187,17 +187,17 @@ if($_SESSION['user']['role']=='Admin') {
 							<li><a href="news.php"><i class="fa fa-circle-o"></i> News</a></li>
 							<li><a href="comment.php"><i class="fa fa-circle-o"></i> Comment</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 
-					<li class="treeview <?php if( ($cur_page == 'testimonial-add.php')||($cur_page == 'testimonial.php')||($cur_page == 'testimonial-edit.php') ) {echo 'active';} ?>">
+					<!-- <li class="treeview <?php //if( ($cur_page == 'testimonial-add.php')||($cur_page == 'testimonial.php')||($cur_page == 'testimonial-edit.php') ) {echo 'active';} ?>">
 			          <a href="testimonial.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Testimonial Section</span>
 			          </a>
-			        </li>
+			        </li> -->
 
 
-					<li class="treeview <?php if( ($cur_page == 'faq-category-add.php')||($cur_page == 'faq-category.php')||($cur_page == 'faq-category-edit.php') || ($cur_page == 'faq-add.php')||($cur_page == 'faq.php')||($cur_page == 'faq-edit.php') ) {echo 'active';} ?>">
+					<!-- <li class="treeview <?php //if( ($cur_page == 'faq-category-add.php')||($cur_page == 'faq-category.php')||($cur_page == 'faq-category-edit.php') || ($cur_page == 'faq-add.php')||($cur_page == 'faq.php')||($cur_page == 'faq-edit.php') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-hand-o-right"></i>
 							<span>FAQ Section</span>
@@ -209,14 +209,14 @@ if($_SESSION['user']['role']=='Admin') {
 							<li><a href="faq-category.php"><i class="fa fa-circle-o"></i> FAQ Category</a></li>
 							<li><a href="faq.php"><i class="fa fa-circle-o"></i> FAQ</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 
-			        <li class="treeview <?php if( ($cur_page == 'pricing-plan-add.php')||($cur_page == 'pricing-plan.php')||($cur_page == 'pricing-plan-edit.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php //if( ($cur_page == 'pricing-plan-add.php')||($cur_page == 'pricing-plan.php')||($cur_page == 'pricing-plan-edit.php') ) {echo 'active';} ?>">
 			          <a href="pricing-plan.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Pricing Plan</span>
 			          </a>
-			        </li>
+			        </li> -->
 
 
 
@@ -232,11 +232,11 @@ if($_SESSION['user']['role']=='Admin') {
 			          </a>
 			        </li>
 
-			        <li class="treeview <?php if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php //if( ($cur_page == 'subscriber.php')||($cur_page == 'subscriber.php') ) {echo 'active';} ?>">
 			          <a href="subscriber.php">
 			            <i class="fa fa-hand-o-right"></i> <span>Subscriber</span>
 			          </a>
-			        </li>
+			        </li> -->
 
       			</ul>
     		</section>

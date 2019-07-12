@@ -17,21 +17,9 @@ $statement = $pdo->prepare("SELECT * FROM tbl_donor WHERE status=0");
 $statement->execute();
 $total_pending_donor = $statement->rowCount();
 
-$statement = $pdo->prepare("SELECT * FROM tbl_news");
-$statement->execute();
-$total_news = $statement->rowCount();
-
 $statement = $pdo->prepare("SELECT * FROM tbl_agent WHERE agent_access=1");
 $statement->execute();
 $total_agent = $statement->rowCount();
-
-$statement = $pdo->prepare("SELECT * FROM tbl_subscriber");
-$statement->execute();
-$total_subscriber = $statement->rowCount();
-
-$statement = $pdo->prepare("SELECT * FROM tbl_pricing_plan");
-$statement->execute();
-$total_pricing_plan = $statement->rowCount();
 ?>
 
 <section class="content">
@@ -66,37 +54,10 @@ $total_pricing_plan = $statement->rowCount();
     </div>
     <div class="col-md-4 col-sm-6 col-xs-12">
       <div class="info-box">
-        <span class="info-box-icon bg-green"><i class="fa fa-hand-o-right"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Total News</span>
-          <span class="info-box-number"><?php echo $total_news; ?></span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="info-box">
         <span class="info-box-icon bg-aqua"><i class="fa fa-hand-o-right"></i></span>
         <div class="info-box-content">
           <span class="info-box-text">Total Agents</span>
           <span class="info-box-number"><?php echo $total_agent; ?></span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="info-box">
-        <span class="info-box-icon bg-red"><i class="fa fa-hand-o-right"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Total Subscribers</span>
-          <span class="info-box-number"><?php echo $total_subscriber; ?></span>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-sm-6 col-xs-12">
-      <div class="info-box">
-        <span class="info-box-icon bg-green"><i class="fa fa-hand-o-right"></i></span>
-        <div class="info-box-content">
-          <span class="info-box-text">Total Pricing Plans</span>
-          <span class="info-box-number"><?php echo $total_pricing_plan; ?></span>
         </div>
       </div>
     </div>
